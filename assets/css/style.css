@@ -783,7 +783,7 @@ p {
   padding-top: 0px; padding-bottom: 250px}
   @media (max-width: 767px) {
     .header-hero-content {
-      padding-bottom: 150px;
+      padding-bottom: 300px;
       padding-top: 0px; } }
   .header-hero-content .header-sub-title {
     font-family: "Jessy";
@@ -814,18 +814,15 @@ p {
     margin-top: 40px; }
 
 .header-hero-image {
-  padding-top: 150px; }
+  padding-top: 200px; }
   .header-hero-image img {
-    padding-top: 50px;
     max-width: 650px; }
     @media (max-width: 767px) {
       .header-hero-image img {
-        padding-top: 50px;
         max-width: 100%; } }
   @media (max-width: 767px) {
     .header-hero-image {
-      padding-top: 50px;
-      padding-top: 30px; } }
+      padding-top: 250px; } }
 
 
 /*===========================

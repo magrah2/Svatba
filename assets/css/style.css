@@ -35,9 +35,13 @@
   font-family: 'Jessy';
   src: url("../fonts/Jessy-Ohio.otf") format("opentype");
 }
+@font-face {
+  font-family: 'textfont';
+  src: url("../fonts/comfortaa.light.ttf")  format('truetype'); /* Safari, Android, iOS */
+}
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "textfont", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #074882ff;
@@ -67,7 +71,8 @@ a:hover {
 i,
 span,
 a {
-  display: inline-block; }
+  display: inline-block; 
+  color: rgb(0, 169, 199); }
 
 audio,
 canvas,
@@ -84,7 +89,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "textfont", sans-serif;
   font-weight: 700;
   color: #074882ff;
   margin: 0px; }
@@ -222,7 +227,7 @@ p {
   height: 100%;
   width: 100%;
   /* Change Background Color */
-  background: #d8f0fcff;
+  background: #e7f8fcff;
   z-index: 99999; }
   .preloader .loader {
     display: table-cell;
@@ -278,7 +283,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #074882ff #074882ff #d8f0fcff;
+      border-color: #074882ff #074882ff #e7f8fcff;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
@@ -501,7 +506,7 @@ p {
 /*===== NAVBAR =====*/
 .navbar-area {
   position: absolute;
-  background-color: #074882ff;
+  background-color: #e7f8fcff;
   top: 0;
   left: 0;
   width: 100%;
@@ -515,7 +520,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background-color: #074882ff;
+  background-color: #e7f8fcff;
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
@@ -545,7 +550,7 @@ p {
   .navbar-toggler .toggler-icon {
     width: 30px;
     height: 2px;
-    background-color: #d8f0fcff;
+    background-color: #074882ff;
     display: block;
     margin: 5px 0;
     position: relative;
@@ -577,7 +582,7 @@ p {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #d8f0fcff;
+    background-color: #e7f8fcff;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -590,7 +595,7 @@ p {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #d8f0fcff;
+    background-color: #e7f8fcff;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -612,7 +617,7 @@ p {
   .navbar-nav .nav-item a {
     font-size: 16px;
     font-weight: 400;
-    color: #d8f0fcff;
+    color: #074882ff;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -620,7 +625,7 @@ p {
     transition: all 0.3s ease-out 0s;
     padding: 10px 0;
     position: relative;
-    font-family: "Poppins", sans-serif; }
+    font-family: "textfont", sans-serif; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .navbar-nav .nav-item a {
         display: block;
@@ -643,7 +648,7 @@ p {
         top: 0; } }
   .navbar-nav .nav-item .sub-menu {
     width: 200px;
-    background-color: #d8f0fcff;
+    background-color: #074882ff;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
@@ -752,21 +757,21 @@ p {
   background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
   background-size: 200%; }
   .navbar-btn .main-btn:hover {
-    color: #d8f0fcff;
+    color: #e7f8fcff;
     background-position: right center; }
 
 .sticky .navbar-toggler .toggler-icon {
-  background-color: #d8f0fcff; }
+  background-color: #074882ff; }
 
 .sticky .navbar-nav .nav-item a {
-  color: #d8f0fcff; }
+  color: #074882ff; }
 
 .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
-  color: #2d8dd9ff; }
+  color: rgb(0, 169, 199); }
 
 /*===== HEADER HERO ===== #fdfbdd*/
 .header-hero {
-  background-color: #d8f0fcff;
+  background-color: #e7f8fcff;
   position: relative;
   z-index: 5;
   background-position: bottom center; }
@@ -780,11 +785,10 @@ p {
   z-index: -1; }
 
 .header-hero-content {
-  padding-top: 0px; padding-bottom: 250px}
+  padding-top: 250px; padding-bottom: 50px}
   @media (max-width: 767px) {
     .header-hero-content {
-      padding-bottom: 300px;
-      padding-top: 0px; } }
+      padding-top: 300px; } }
   .header-hero-content .header-sub-title {
     font-family: "Jessy";
     font-size: 50px;
@@ -814,7 +818,7 @@ p {
     margin-top: 40px; }
 
 .header-hero-image {
-  padding-top: 200px; }
+  padding-bottom: 200px; }
   .header-hero-image img {
     max-width: 650px; }
     @media (max-width: 767px) {
@@ -822,27 +826,32 @@ p {
         max-width: 100%; } }
   @media (max-width: 767px) {
     .header-hero-image {
-      padding-top: 250px; } }
+      padding-bottom: 200px; } }
 
 
 /*===========================
       04.UVOD css 
 ===========================*/
 .uvod-area {
-  background-color: #d8f0fcff; 
-  background-image: url(../images/zasnoubeni1.jpg);
+  background-color: #e7f8fcff; 
+  background-image: url(../images/zasnoubeni3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center; 
   padding-top: 350px;
   padding-bottom: 350px;}
+  @media (max-width: 767px) {
+    .uvod-area{padding-top: 150px;
+      padding-bottom: 150px;
 
+    } }
+/* jak udelat, aby to v mobilu nebylo prezoomovane 2d8dd9ff
 
 /*===========================
       05.ABOUT css 
 ===========================*/
 .about-area {
-  background-color: #d8f0fcff;
+  background-color: #e7f8fcff;
   position: relative;
   z-index: 5; }
 
@@ -1259,7 +1268,7 @@ p {
        11.FOOTER  css 
 ===========================*/
 .footer-area {
-  background-color: #d8f0fcff;
+  background-color: #e7f8fcff;
   background-position: top center;
   position: relative;
   z-index: 5; }
@@ -1271,7 +1280,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/stromy_bez_pozadi.png);
+  background-image: url(../images/stromy_s_pozadim.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;

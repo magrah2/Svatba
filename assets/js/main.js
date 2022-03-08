@@ -1,12 +1,6 @@
 $(function () {
 
-    "use strict";
-
-    //===== Prealoder
-
-    $(window).on('load', function (event) {
-        $('.preloader').delay(500).fadeOut(500);
-    });
+    "use strict"
 
 
     //===== Sticky
@@ -55,8 +49,8 @@ $(function () {
 
     $(".navbar-nav a").on('click', function () {
         $(".navbar-toggler").removeClass('active');
-    });    
-    
+    });
+
 
     //====== Magnific Popup
 

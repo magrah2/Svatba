@@ -39,7 +39,13 @@
 
 @font-face {
   font-family: 'textfont';
-  src: url("../fonts/comfortaa.light.ttf") format('truetype');
+  src: url("../fonts/Comfortaa-Regular.ttf") format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'textfontBold';
+  src: url("../fonts/Comfortaa-Bold.ttf") format('truetype');
   /* Safari, Android, iOS */
 }
 
@@ -100,8 +106,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "textfont", sans-serif;
-  font-weight: 700;
+  font-family: "textfontBold";
   color: #074882ff;
   margin: 0px;
 }
@@ -1007,7 +1012,6 @@ p {
 .header-hero-content .header-sub-title {
   font-family: "textfont";
   font-size: 30px;
-  font-weight: 500;
   color: #074882ff;
 }
 
@@ -1026,7 +1030,6 @@ p {
 .header-hero-content .header-title {
   font-family: "Jessy";
   font-size: 100px;
-  font-weight: 500;
   color: #074882ff;
 }
 
@@ -1710,7 +1713,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/stromy_s_pozadim.png);
+  background-image: url(../images/stromy_s_pozadim2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1733,7 +1736,7 @@ p {
 }
 
 .footer-widget {
-  padding-top: 300px;
+  padding-top: 600px;
 }
 
 .footer-about .logo img {

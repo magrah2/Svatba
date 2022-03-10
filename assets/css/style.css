@@ -999,27 +999,27 @@ p {
 
 @media (max-width: 767px) {
   .header-hero-wrapper {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 30px
   }
 }
 
 .header-hero-content .header-sub-title {
-  font-family: "Jessy";
-  font-size: 50px;
+  font-family: "textfont";
+  font-size: 30px;
   font-weight: 500;
   color: #074882ff;
 }
 
 @media (max-width: 767px) {
   .header-hero-content .header-sub-title {
-    font-size: 30px;
+    font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-hero-content .header-sub-title {
-    font-size: 30px;
+    font-size: 18 px;
   }
 }
 

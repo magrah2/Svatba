@@ -999,7 +999,7 @@ p {
 
 .header-hero-wrapper {
   padding-top: 150px;
-  padding-bottom: 150px
+  padding-bottom: 100px
 }
 
 @media (max-width: 767px) {
@@ -1059,7 +1059,7 @@ p {
 }
 
 .header-hero-image img {
-  max-width: 650px;
+  max-width: 750px;
 }
 
 @media (max-width: 767px) {

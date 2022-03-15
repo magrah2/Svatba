@@ -1012,20 +1012,45 @@ p {
 .header-hero-content .header-sub-title {
   font-family: "textfont";
   font-size: 25px;
+  padding-left: 60px;
   color: #074882ff;
 }
 
 @media (max-width: 767px) {
   .header-hero-content .header-sub-title {
     font-size: 18px;
+    padding-left: 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-hero-content .header-sub-title {
     font-size: 18 px;
+    padding-left: 0px;
   }
 }
+
+.header-hero-content .header-sub-title-right {
+  font-family: "textfont";
+  font-size: 25px;
+  padding-right: 100px;
+  color: #074882ff;
+}
+
+@media (max-width: 767px) {
+  .header-hero-content .header-sub-title-right {
+    font-size: 18px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .header-hero-content .header-sub-title-right {
+    font-size: 18 px;
+    padding-right: 0px;
+  }
+}
+
 
 .header-hero-content .header-title {
   font-family: "Jessy";

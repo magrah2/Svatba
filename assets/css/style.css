@@ -51,7 +51,6 @@
 
 body {
   font-family: "textfont", sans-serif;
-  font-weight: normal;
   font-style: normal;
   color: #074882ff;
   overflow-x: hidden;
@@ -143,7 +142,6 @@ ul, ol {
 
 p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 26px;
   color: #074882ff;
   margin: 0px;
@@ -165,7 +163,6 @@ p {
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
-  font-weight: 500;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -173,31 +170,25 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 0 25px;
+  padding: 0px 20px;
   font-size: 16px;
   line-height: 48px;
   border-radius: 8px;
   border: 0;
-  color: #fff;
+  color: #e7f8fcff;
   cursor: pointer;
   z-index: 5;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-  background: -webkit-linear-gradient(left, #2d8dd9ff 0%, #074882ff 100%);
-  background: -o-linear-gradient(left, #2d8dd9ff 0%, #074882ff 100%);
-  background: linear-gradient(to right, #2d8dd9ff 0%, #074882ff 100%);
+  background: #074882ff;
   background-size: 200%;
+  margin-bottom:10px; 
+  margin-top:10px;
 }
 
 .main-btn:hover {
   color: #fff;
-  background-position: right center;
 }
 
-/*===== All SECTION TITLE Style =====*/
+/*===== All SECTION TITLE Style ===== #2d8dd9ff 0%, #074882ff*/
 .section-title .line {
   background: -webkit-linear-gradient(#2d8dd9ff 0%, #074882ff 100%);
   background: -o-linear-gradient(#2d8dd9ff 0%, #074882ff 100%);
@@ -209,7 +200,6 @@ p {
 
 .section-title .title {
   font-size: 38px;
-  font-weight: 700;
   line-height: 42px;
 }
 
@@ -226,14 +216,12 @@ p {
 }
 
 .section-title .title span {
-  font-weight: 400;
   display: contents;
 }
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
   font-size: 18px;
-  font-weight: 400;
   color: #361CC1;
   text-transform: uppercase;
 }
@@ -262,7 +250,6 @@ p {
 }
 
 .section-title .title span {
-  font-weight: 400;
   display: contents;
 }
 
@@ -779,7 +766,6 @@ p {
 
 .navbar-nav .nav-item a {
   font-size: 16px;
-  font-weight: 400;
   color: #074882ff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -977,7 +963,7 @@ p {
 }
 
 .sticky .navbar-nav .nav-item.active>a, .sticky .navbar-nav .nav-item:hover>a {
-  color: rgb(0, 169, 199);
+  color: #2d8dd9ff;
 }
 
 /*===== HEADER HERO ===== #fdfbdd*/
@@ -1079,7 +1065,7 @@ p {
       04.UVOD css
 ===========================*/
 .uvod-area {
-  background-color: #e7f8fcff;
+  background-color: rgb(233, 247, 250);
   background-image: url(../images/zasnoubeni4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1292,7 +1278,6 @@ p {
 
 .counter-wrapper .single-counter .count {
   font-size: 22px;
-  font-weight: 700;
   color: #fff;
 }
 
@@ -1396,7 +1381,6 @@ p {
 
 .single-team .team-content .holder-name a {
   font-size: 20px;
-  font-weight: 700;
   color: #2E2E2E;
 }
 
@@ -1474,7 +1458,6 @@ p {
 
 .single-testimonial .testimonial-author .author-content .holder-name {
   font-size: 18px;
-  font-weight: 700;
   color: #2E2E2E;
 }
 
@@ -1557,7 +1540,6 @@ p {
 
 .single-blog .blog-content .text {
   font-size: 23px;
-  font-weight: 400;
   line-height: 30px;
   color: #2E2E2E;
   margin-top: 15px;
@@ -1600,7 +1582,6 @@ p {
 
 .subscribe-content .subscribe-title {
   font-size: 35px;
-  font-weight: 700;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1774,7 +1755,6 @@ p {
 
 .footer-title .title {
   font-size: 24px;
-  font-weight: 700;
   color: #fff;
 }
 
@@ -1882,6 +1862,8 @@ p {
 .text-box {
   padding: 50px;
   width: 100%;
+  display: gridte;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
+  background: rgba(231, 248, 252, 0.7);
 }

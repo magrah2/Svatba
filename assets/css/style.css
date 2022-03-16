@@ -1708,7 +1708,7 @@ p {
   background-color: #e7f8fcff;
   background-position: top center;
   position: relative;
-  z-index: 5;
+  z-index: 1;
 }
 
 .footer-area::before {

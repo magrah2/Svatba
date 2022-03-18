@@ -1004,14 +1004,14 @@ p {
 @media (max-width: 767px) {
   .header-hero-content .header-sub-title {
     font-size: 18px;
-    padding-left: 0px;
+    padding-left: 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-hero-content .header-sub-title {
     font-size: 18 px;
-    padding-left: 0px;
+    padding-left: 30px;
   }
 }
 
@@ -1025,14 +1025,14 @@ p {
 @media (max-width: 767px) {
   .header-hero-content .header-sub-title-right {
     font-size: 18px;
-    padding-right: 0px;
+    padding-right: 70px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-hero-content .header-sub-title-right {
     font-size: 18 px;
-    padding-right: 0px;
+    padding-right: 70px;
   }
 }
 
@@ -1040,18 +1040,21 @@ p {
 .header-hero-content .header-title {
   font-family: "Jessy";
   font-size: 120px;
+  text-align: center;
   color: #074882ff;
 }
 
 @media (max-width: 767px) {
   .header-hero-content .header-title {
-    font-size: 60px;
+    font-size: 70px;
+    text-align: center;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-hero-content .header-title {
-    font-size: 60px;
+    font-size: 100px;
+    text-align: center;
   }
 }
 

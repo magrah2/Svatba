@@ -1112,6 +1112,30 @@ p {
 
 /* jak udelat, aby to v mobilu nebylo prezoomovane 2d8dd9ff
 
+
+/*===========================
+      05.Harmonogram css
+===========================*/
+.harm-area {
+  background-color: #e7f8fcff;
+  z-index: 5;
+}
+
+.harm-content {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 480px;
+}
+
+.harm-content .text {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+
+
+
 /*===========================
       05.ABOUT css
 ===========================*/
